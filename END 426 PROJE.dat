@@ -1,0 +1,14 @@
+/*********************************************
+ * OPL 12.6.2.0 Data
+ * Author: AYFER GÜNEY
+ * Creation Date: 16 Tem 2022 at 21:49:01
+ *********************************************/
+SheetConnection sheet("AYL_Kargo-KargoTalebi.xlsx");
+
+d from SheetRead(sheet,"Talep!C3:Q17");
+t from SheetRead(sheet,"Mesafe!C3:Q17");
+Ve from SheetRead(sheet,"Ve!C3:Q17");
+Vd from SheetRead(sheet,"Vd!C3:Q17");
+
+O from SheetRead(sheet,"Talep!R3:R17");
+D from SheetRead(sheet,"Talep!C18:Q18");
